@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>registration</title>
+</head>
+<body>
+<h2>Registration Form</h2>
+
+<form action="/submit">
+
+<!--  text field -->
+<lable for="username"> Username:</lable>
+<input type="text" id="username" name="username">
+<br><br>
+
+<!--  email field -->
+<lable for="email"> Email:</lable>
+<input type="email" id="email" name="email">
+<br><br>
+
+<!--  password field -->
+<lable for="password"> Password:</lable>
+<input type="password" id="password" name="password">
+<br><br>
+
+<!-- Date field -->
+<label for="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dob">
+<br><br>
+
+
+<!--  textarea field -->
+<lable for="description"> Description:</lable>
+<textarea id="description" name="description" rows="4" cols="25"></textarea>
+<br><br>
+
+<!--  dropdown field -->
+<lable for="city"> Select City:</lable>
+<select id="city" name="city">
+<option value="mumbai">Mumbai</option>
+<option value="pune">Pune</option>
+<option value="banglore">Banglore</option>
+<option value="hyderabad">Hyderabad</option>
+
+</select>
+<br><br>
+
+<!--  radio buttons field -->
+<label>Gender:</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<br><br>
+
+
+<!--  checkbox field -->
+<label>Technologies</label><br>
+<input type="checkbox" id="java" name="programming" value="java">
+<label for="java">Java</label>
+<input type="checkbox" id="python" name="programming" value="python">
+<label for="python">Python</label>
+<input type="checkbox" id="Javascript" name="programming" value="Javascript">
+<label for="Javascript">Javascript</label>
+<input type="checkbox" id="Springboot" name="programming" value="Springboot">
+<label for="Springboot">Spring Boot</label>
+<br><br>
+
+<!--  file field -->
+<label for="identityproof">Id Proof</label>
+<input type="file" id="idproof" name="idproof" accept="pdf/*">
+<br><br>
+
+
+<!--  submit button field -->
+<input type="submit" value="submit">
+
+
+</form>
+</body>
+</html>
