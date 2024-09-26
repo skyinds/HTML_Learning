@@ -12,6 +12,7 @@ public class A {
 
 			int result = 10 / 0;
 			System.out.println("Result: " + result);
+			System.out.println("Final result");
 
 		} catch (Exception e) {
 			System.out.println("Exception caught 1:");
