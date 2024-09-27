@@ -7,7 +7,7 @@ public class B {
 		return "password1";
 		
 	}
-	public void setpassword(String password) {
+	public void setPassword(String password) {
 		this.password = password;
 		
 	}
