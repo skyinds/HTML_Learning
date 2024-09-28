@@ -11,7 +11,7 @@ public class A {
 		
 		try {
 
-			int result = 10 / 0;
+			//int result = 10 / 0;
 			System.out.println("Result: " + result);
 			System.out.println("Final result");
 
